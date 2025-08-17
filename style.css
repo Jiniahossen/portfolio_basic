@@ -124,7 +124,8 @@ body {
   word-spacing: 8px;
 }
 .ytube-video-section {
-  margin: 100px 0px;
+  margin: 100px auto;
+  width: 70%;
 }
 .yt-video-content {
   margin-bottom: 50px;
@@ -132,10 +133,10 @@ body {
 .youtube-video {
   display: flex;
   justify-content: center;
-  width: 50%;
-  height: 400px;
+  width: 100%;
+  height: 450px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #b9b9b9;
   border-radius: 10px;
 }
@@ -147,12 +148,15 @@ body {
 /* web dev section end  */
 
 /*current targets section start */
+.target-container {
+  width: 70%;
+  margin:0 auto;
+}
 .web-title {
   font-size: 20px;
   text-align: left;
 }
 .targets {
-  width: 80%;
   margin: 50px auto;
   display: flex;
   justify-content: space-around;
@@ -178,6 +182,7 @@ body {
   background-color: var(--js-color);
 }
 /*current targets  end */
+
 /* next targets  start */
 .next-targets {
   display: flex;
@@ -258,5 +263,17 @@ body {
 /*  call to action end  */
 
 /* footer start */
-
+.footer {
+  height: 50px;
+  padding: 10px 0px;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 /*  footer end */
