@@ -3,9 +3,9 @@
   --main-color: rgb(250, 250, 250);
   --primary-color: rgb(62, 62, 62);
   --text-color: rgb(34, 34, 34);
-  --html-color: #ffd6ba;
-  --css-color: #91c8e4;
-  --js-color: #fdf5aa;
+  --html-color: #fff8f2f3;
+  --css-color: #ecf9ff;
+  --js-color: #fffded;
   --font-family: "Mozilla Text", sans-serif;
 }
 
@@ -123,8 +123,6 @@ body {
   line-height: 35px;
   word-spacing: 8px;
 }
-/* web dev section end */
-/* youtube video section start */
 .ytube-video-section{
     margin:100px 0px;
 }
@@ -137,9 +135,46 @@ body {
     width:50%;
     height:400px;
     margin:0 auto;
+    padding:20px;
+    border:1px solid #b9b9b9;
+    border-radius: 10px;
 }
 .yt-video{
    width:100%;
    height:100%;
+   border-radius: 10px;
 }
-/* youtube video section end  */
+/* web dev section end  */
+
+/* targets section start */
+.web-title{
+   font-size: 20px;
+   text-align: left;
+}
+.targets{
+    width:80%;
+    margin:50px auto;
+    display:flex;
+    justify-content: space-around;
+    gap:40px;
+}
+.target{
+    padding:30px;
+    border-radius: 10px;
+}
+.target a{
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: 700;
+    color:var(--primary-color)
+}
+.target-one{
+    background-color: var(--html-color);
+}
+.target-two{
+    background-color: var(--css-color);
+}
+.target-three{
+    background-color: var(--js-color);
+}
+/* targets section end */
