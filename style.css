@@ -146,7 +146,7 @@ body {
 }
 /* web dev section end  */
 
-/* targets section start */
+/*current targets section start */
 .web-title{
    font-size: 20px;
    text-align: left;
@@ -177,4 +177,28 @@ body {
 .target-three{
     background-color: var(--js-color);
 }
-/* targets section end */
+/*current targets  end */
+/* next targets  start */
+.next-targets{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    margin: 50px 0px;
+}
+.target-img img{
+    width:80px;
+    height:80px;
+}
+.next-target{
+    width:80%;
+    margin:0 auto;
+    padding:20px;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    gap:20px;
+    border:1px solid #b9b9b9;
+    border-radius: 10px;
+}
+/* next target end */
+
