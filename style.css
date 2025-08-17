@@ -123,82 +123,140 @@ body {
   line-height: 35px;
   word-spacing: 8px;
 }
-.ytube-video-section{
-    margin:100px 0px;
+.ytube-video-section {
+  margin: 100px 0px;
 }
-.yt-video-content{
-    margin-bottom: 50px;
+.yt-video-content {
+  margin-bottom: 50px;
 }
-.youtube-video{
-    display:flex;
-    justify-content: center;
-    width:50%;
-    height:400px;
-    margin:0 auto;
-    padding:20px;
-    border:1px solid #b9b9b9;
-    border-radius: 10px;
+.youtube-video {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #b9b9b9;
+  border-radius: 10px;
 }
-.yt-video{
-   width:100%;
-   height:100%;
-   border-radius: 10px;
+.yt-video {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
 /* web dev section end  */
 
 /*current targets section start */
-.web-title{
-   font-size: 20px;
-   text-align: left;
+.web-title {
+  font-size: 20px;
+  text-align: left;
 }
-.targets{
-    width:80%;
-    margin:50px auto;
-    display:flex;
-    justify-content: space-around;
-    gap:40px;
+.targets {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
 }
-.target{
-    padding:30px;
-    border-radius: 10px;
+.target {
+  padding: 30px;
+  border-radius: 10px;
 }
-.target a{
-    font-family: var(--font-family);
-    font-size: 15px;
-    font-weight: 700;
-    color:var(--primary-color)
+.target a {
+  font-family: var(--font-family);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--primary-color);
 }
-.target-one{
-    background-color: var(--html-color);
+.target-one {
+  background-color: var(--html-color);
 }
-.target-two{
-    background-color: var(--css-color);
+.target-two {
+  background-color: var(--css-color);
 }
-.target-three{
-    background-color: var(--js-color);
+.target-three {
+  background-color: var(--js-color);
 }
 /*current targets  end */
 /* next targets  start */
-.next-targets{
-    display:flex;
-    flex-direction: column;
-    gap:20px;
-    margin: 50px 0px;
+.next-targets {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 50px 0px;
 }
-.target-img img{
-    width:80px;
-    height:80px;
+.target-img img {
+  width: 80px;
+  height: 80px;
 }
-.next-target{
-    width:80%;
-    margin:0 auto;
-    padding:20px;
-    display:flex;
-    justify-content: start;
-    align-items: center;
-    gap:20px;
-    border:1px solid #b9b9b9;
-    border-radius: 10px;
+.next-target {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #b9b9b9;
+  border-radius: 10px;
 }
 /* next target end */
 
+/* call to action start */
+.call-to-action {
+  height: 280px;
+  width: 70%;
+  margin: 50px auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(assets/handshake.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.call-to-action-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.call-to-action-title {
+  font-size: 30px;
+  color: #fff;
+}
+.call-to-action-content p {
+  color: #c6c6c6;
+  margin-bottom: 20px;
+}
+.form {
+  margin: 5px auto;
+}
+.call-action-input {
+  width: 500px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-family: var(--font-family);
+  font-size: 16px;
+}
+
+.call-action-btn {
+  height: 40px;
+  padding: 5px 20px;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #fff;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 16px;
+}
+
+/*  call to action end  */
+
+/* footer start */
+
+/*  footer end */
